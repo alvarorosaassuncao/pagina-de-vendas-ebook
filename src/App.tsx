@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { BookOpen, Brain, Sparkles, Shield, Star, CheckCircle, ArrowRight, ExternalLink, Clock, Siren as Fire, Gift } from 'lucide-react';
 
+import ebookAgenteIa2 from './ebook agente ia 2.png';
+import ebookConteudo1 from './ebook conteudo 1.png';
+
 function App() {
   const [timeLeft, setTimeLeft] = useState(13 * 60); // 13 minutes in seconds
 
@@ -52,8 +55,8 @@ function App() {
                 Guia Definitivo de Agentes de IA para Iniciantes
               </h1>
               <p className="text-xl text-gray-300 mb-8">
-              Imagine ter à sua disposição ferramentas inteligentes, incansáveis e altamente especializadas, trabalhando 24 horas por dia para otimizar suas tarefas, automatizar processos complexos e impulsionar seus ganhos. Essa não é mais uma visão futurista – é a realidade que os Agentes de IA oferecem AGORA!<br></br><br></br>
-              No mercado digital de alta velocidade, ficar para trás não é uma opção. A Inteligência Artificial está transformando negócios em todos os setores, e aqueles que souberem aproveitar seu potencial terão uma vantagem competitiva INEGÁVEL.
+                Imagine ter à sua disposição ferramentas inteligentes, incansáveis e altamente especializadas, trabalhando 24 horas por dia para otimizar suas tarefas, automatizar processos complexos e impulsionar seus ganhos. Essa não é mais uma visão futurista – é a realidade que os Agentes de IA oferecem AGORA!<br></br><br></br>
+                No mercado digital de alta velocidade, ficar para trás não é uma opção. A Inteligência Artificial está transformando negócios em todos os setores, e aqueles que souberem aproveitar seu potencial terão uma vantagem competitiva INEGÁVEL.
               </p>
               <div className="bg-white/10 p-6 rounded-lg mb-8">
                 <div className="flex items-center gap-2 mb-4">
@@ -68,28 +71,27 @@ function App() {
                   </div>
                 </div>
                 <div className="space-y-3">
-  <a
-    href="https://go.hotmart.com/V98786255V"
-    className="w-full bg-green-500 hover:bg-green-600 px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 inline-block text-center"
-  >
-    COMPRAR AGORA
-  </a>
-  <a
-  href="https://pay.kiwify.com.br/PapOzka
-"
-  className="w-full bg-[#0088ff] hover:bg-[#0066cc] px-8 py-4 rounded-lg font-bold text-lg inline-block text-center"
->
-  ADQUIRIR +60 PROMPT'S 
-</a>
-</div>
+                  <a
+                    href="https://go.hotmart.com/V98786255V"
+                    className="w-full bg-green-500 hover:bg-green-600 px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 inline-block text-center"
+                  >
+                    COMPRAR AGORA
+                  </a>
+                  <a
+                    href="https://pay.kiwify.com.br/PapOzka"
+                    className="w-full bg-[#0088ff] hover:bg-[#0066cc] px-8 py-4 rounded-lg font-bold text-lg inline-block text-center"
+                  >
+                    ADQUIRIR +60 PROMPT'S
+                  </a>
+                </div>
                 <p className="text-center text-sm mt-4 text-gray-400">
                   🔒 Pagamento 100% seguro via PIX ou Cartão
                 </p>
               </div>
             </div>
             <div className="relative">
-              <img 
-                src="ebook conteudo 1.png"
+              <img
+                src={ebookConteudo1}
                 alt="IA Book Preview"
                 className="rounded-lg shadow-2xl w-full h-auto"
               />
@@ -104,7 +106,7 @@ function App() {
       {/* Benefits Section */}
       <section className="py-20">
         <div className="container mx-auto px-4">
-        <h3 className="text-3xl font-bold text-center mb-4">Chegou a hora de você dominar as ferramentas de IA mais poderosas do mercado e se tornar um mestre na arte de criar, customizar e otimizar Agentes de IA.</h3>
+          <h3 className="text-3xl font-bold text-center mb-4">Chegou a hora de você dominar as ferramentas de IA mais poderosas do mercado e se tornar um mestre na arte de criar, customizar e otimizar Agentes de IA.</h3>
           <h4 className="text-3xl font-bold text-center mb-4">O Que Você Vai Aprender</h4>
           <p className="text-gray-400 text-center max-w-2xl mx-auto mb-16">
             Um guia completo e prático para conhecer as ferramentas de criação de Agentes de IA mais avançadas do mercado
@@ -115,7 +117,7 @@ function App() {
                 icon: <Brain className="w-6 h-6" />,
                 title: "Fundamentos de IA",
                 description: "Entenda os conceitos essenciais e como aplicá-los em seus projetos. Saiba qual a importância de cada ferramenta"
-                
+
               },
               {
                 icon: <Sparkles className="w-6 h-6" />,
@@ -161,8 +163,8 @@ function App() {
               ))}
             </div>
             <div className="relative">
-              <img 
-                src="ebook3.png"
+              <img
+                src={ebookAgenteIa2}
                 alt="E-book Preview"
                 className="rounded-lg shadow-xl w-full h-auto"
               />
@@ -180,7 +182,7 @@ function App() {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Acesse o EstudaTech e descubra mais conteúdos sobre tecnologia e inovação
           </p>
-          <a 
+          <a
             href="https://estudatech.com"
             target="_blank"
             rel="noopener noreferrer"
@@ -191,7 +193,6 @@ function App() {
         </div>
       </section>
 
-    
 
       <section className="relative bg-[#001233] overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-900/80 to-transparent z-0"></div>
@@ -202,7 +203,7 @@ function App() {
                 Guia Definitivo de Agentes de IA para Iniciantes
               </h1>
               <p className="text-xl text-gray-300 mb-8">
-              Chegou a hora de você dominar as ferramentas de IA mais poderosas do mercado e se tornar um mestre na arte de criar, customizar e otimizar Agentes de IA.<br></br><br></br>Não perca mais tempo com métodos ultrapassados. A revolução da Inteligência Artificial já começou, e a hora de você embarcar nessa jornada é AGORA!
+                Chegou a hora de você dominar as ferramentas de IA mais poderosas do mercado e se tornar um mestre na arte de criar, customizar e otimizar Agentes de IA.<br></br><br></br>Não perca mais tempo com métodos ultrapassados. A revolução da Inteligência Artificial já começou, e a hora de você embarcar nessa jornada é AGORA!
               </p>
               <div className="bg-white/10 p-6 rounded-lg mb-8">
                 <div className="flex items-center gap-2 mb-4">
@@ -217,32 +218,28 @@ function App() {
                   </div>
                 </div>
                 <div className="space-y-3">
-  <a
-    href="https://go.hotmart.com/V98786255V"
-    className="w-full bg-green-500 hover:bg-green-600 px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 inline-block text-center"
-  >
-    COMPRAR AGORA
-  </a>
+                  <a
+                    href="https://go.hotmart.com/V98786255V"
+                    className="w-full bg-green-500 hover:bg-green-600 px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 inline-block text-center"
+                  >
+                    COMPRAR AGORA
+                  </a>
 
-  <a
-  href="https://pay.kiwify.com.br/PapOzka
-"
-  className="w-full bg-[#0088ff] hover:bg-[#0066cc] px-8 py-4 rounded-lg font-bold text-lg inline-block text-center"
->
-ADQUIRIR +60 PROMPT'S 
-</a>
-
-
-
-</div>
+                  <a
+                    href="https://pay.kiwify.com.br/PapOzka"
+                    className="w-full bg-[#0088ff] hover:bg-[#0066cc] px-8 py-4 rounded-lg font-bold text-lg inline-block text-center"
+                  >
+                    ADQUIRIR +60 PROMPT'S
+                  </a>
+                </div>
                 <p className="text-center text-sm mt-4 text-gray-400">
                   🔒 Pagamento 100% seguro via PIX ou Cartão
                 </p>
               </div>
             </div>
             <div className="relative">
-              <img 
-                src="ebook conteudo 1.png"
+              <img
+                src={ebookConteudo1}
                 alt="IA Book Preview"
                 className="rounded-lg shadow-2xl w-full h-auto"
               />
