@@ -72,7 +72,7 @@ function App() {
                 </div>
                 <div className="space-y-3">
                   <a
-                    href="https://go.hotmart.com/V98786255V"
+                    href="https://pay.kiwify.com.br/LJBDNqf"
                     className="w-full bg-green-500 hover:bg-green-600 px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 inline-block text-center"
                   >
                     COMPRAR AGORA
@@ -219,7 +219,7 @@ function App() {
                 </div>
                 <div className="space-y-3">
                   <a
-                    href="https://go.hotmart.com/V98786255V"
+                    href="https://pay.kiwify.com.br/LJBDNqf"
                     className="w-full bg-green-500 hover:bg-green-600 px-8 py-4 rounded-lg font-bold text-lg transition-all transform hover:scale-105 inline-block text-center"
                   >
                     COMPRAR AGORA
